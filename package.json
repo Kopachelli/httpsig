@@ -1,5 +1,5 @@
 {
-  "name": "httpsig",
+  "name": "httpsig-js",
   "version": "0.1.0",
   "description": "HTTP Message Signatures (RFC 9421) sign and verify for fetch Requests. WebCrypto-only, zero dependencies. The auth primitive the MCP authorization spec and agent-to-agent protocols are standardizing on.",
   "keywords": [
@@ -37,7 +37,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Kopachelli/httpsig.git"
+    "url": "git+https://github.com/Kopachelli/httpsig-js.git"
   },
   "devDependencies": {
     "@types/node": "^24.19.4",

@@ -59,5 +59,5 @@ verify(request, { publicKey, skewSec?, now? })
 ## Install
 
 ```sh
-npm install httpsig
+npm install httpsig-js
 ```
