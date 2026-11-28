@@ -30,6 +30,12 @@ const result = await verify(req, { publicKey });
 // { ok: true, label: 'sig1', keyid: 'agent-7', params: {...} }
 ```
 
+## How it compares
+
+See [docs/COMPARISON.md](docs/COMPARISON.md) for an honest feature-by-feature
+comparison against the other RFC 9421 implementations — including where
+httpsig is *not* the right tool.
+
 ## What's covered
 
 - **Derived components**: `@method`, `@authority`, `@scheme`, `@request-target`, `@path`, `@query`, `@query-param;name="x"`, `@target-uri`
